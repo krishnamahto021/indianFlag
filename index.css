@@ -1,0 +1,59 @@
+.flag{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:whitesmoke;
+    box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
+}
+
+.first{
+    width: 400px;
+    height: 100px;
+    background-color: #FF9933;
+}
+
+.second{
+    width: 400px;
+    height: 100px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 4px solid #000080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.line{
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: #000080;
+}
+
+
+.third{
+    width: 400px;
+    height: 100px;
+    background-color: #138808;
+}
+
+.line:nth-child(1){
+    transform: rotate(15deg);
+}
+
+.line:nth-child(2){
+    transform: rotate(30deg);
+}
+
